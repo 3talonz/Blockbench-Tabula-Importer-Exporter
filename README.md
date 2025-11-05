@@ -10,8 +10,10 @@ You should also be able to export Modded Entity type projects in Blockbench as T
 * UV mirrors should now be imported/exported correctly
 * Inflate can now be imported by calculating the minimum value of expandX, expandY, and expandZ of a cube
 * Redundant group-cube pairs will now be condensed into a singular cube upon import (rotated group with a non rotated cube)
-** This will lead to a model that is exported and then imported back into Blockbench being identical to what it was prior to said exporting and importing
+  * This will lead to a model that is exported and then imported back into Blockbench being identical to what it was prior to said exporting and importing
 * Flipping across the X axis is now not needed before exporting and after importing
+## Known Issues:
+* Importing a TBL file from Tabula versions prior to version 5 with cube groups may result in broken imports
 ## Credits:
 All credits for the original importer and exporter go towards the following authors:
 * grillo78 - For the original Tabula exporter (https://github.com/grillo78)
