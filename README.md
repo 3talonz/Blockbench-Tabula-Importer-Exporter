@@ -2,7 +2,7 @@
 A simple Blockbench plugin that serves to allow importing and exporting of Tabula (.tbl) files to and from Blockbench. 
 Exported Tabula files are intended to be used in Tabula version 10.5.1 for Minecraft Forge version 1.16.5, as well as for Minecraft mods such as Fisk's Superheroes.
 ## To install:
-Download tbl_import_export.js. Open Blockbench, and find File -> Plugins -> Load Plugin from File, and select tbl_import_export.js
+Download tbl_import_export.js from Releases. Open Blockbench, and find File -> Plugins -> Load Plugin from File, and select tbl_import_export.js
 ## How to use:
 You should be able to import Tabula models for Modded Entity type projects in Blockbench through File -> Import -> Import Tabula Model (.tbl) Custom
 You should also be able to export Modded Entity type projects in Blockbench as Tabula models through File -> Export -> Export to Tabula (.tbl) Custom
